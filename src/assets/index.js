@@ -74,8 +74,8 @@ async function fetchData(urlApi, options) {
     content.innerHTML = viewVideos
     schedule.innerHTML = viewSchedule
 
-  } catch (e) {
-    console.log(e);
+  } catch (error) {
+    console.log(error);
   }
 })();
 
