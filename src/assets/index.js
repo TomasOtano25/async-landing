@@ -75,6 +75,12 @@ async function fetchData(urlApi, options) {
     schedule.innerHTML = viewSchedule
 
   } catch (error) {
+    let errorMessage = `
+      <div>
+        <p>Error al cargar el contenido</p>
+      </div>
+    `
+    content.innerHTML = errorMessage
     console.log(error);
   }
 })();

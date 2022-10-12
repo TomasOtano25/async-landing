@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TomasOtano25/async-landing/issues"
   },
-  "homepage": "https://github.com/TomasOtano25/async-landing#readme"
+  "homepage": "https://github.com/TomasOtano25/async-landing#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
